@@ -1,0 +1,81 @@
+body {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    background-image: url("bjj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0 0;
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 600px;
+}
+
+button {
+    border: 1px solid whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn2 {
+    background: blue;
+}
+
+#increment-btn3 {
+    background: purple;
+}
+
+#increment-btn4 {
+    background: brown;
+}
+
+#save-btn {
+    background: darkgreen;
+    margin-top: 20px;
+}
+
+#save-el1 {
+    font-size: 30px;
+}
+
+#save-el2 {
+    font-size: 30px;
+}
